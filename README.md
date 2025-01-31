@@ -43,4 +43,4 @@ Ce projet vise à renforcer nos compétences en développement web, en particuli
 
 Clonez ce dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/enzo-mensier/Hville.git
+   git clone https://github.com/fyles-git/mini-projet-hville-developpement-web.git
