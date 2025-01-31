@@ -1,0 +1,42 @@
+create table COMPOSE 
+(
+   ID_SERVICE           integer                        not null,
+   ID_SALLE             integer                        not null,
+   QTE_CHAMBRE          integer                        null,
+   constraint PK_COMPOSE primary key clustered (ID_SERVICE, ID_SALLE)
+);
+create table EMPLOYE 
+(
+   ID_EMPLOYE           integer                        not null,
+   ID_SERVICE           integer                        not null,
+   TYPE_EMPLOYE         varchar(25)                   not null,
+   NOM_EMPLOYE          varchar(25)                   null,
+   PRENOM_EMPLOYE       varchar(25)                   null,
+   constraint PK_EMPLOYE primary key (ID_EMPLOYE)
+);
+create table SALLE 
+(
+   ID_SALLE             integer                        not null,
+   TYPE_SALLE           varchar(25)                   not null,
+   TEMP_SALLE           integer                        null,
+   constraint PK_SALLE primary key (ID_SALLE)
+);
+create table SERVICE 
+(
+   ID_SERVICE           integer                        not null,
+   LIBELLE_SERVICE      varchar(25)                   null,
+   constraint PK_SERVICE primary key (ID_SERVICE)
+);
+create table TYPE_EMPLOYE 
+(
+   TYPE_EMPLOYE         varchar(25)                   not null,
+   LIBELLE_EMPLOYE      integer                        null,
+   constraint PK_TYPE_EMPLOYE primary key (TYPE_EMPLOYE)
+);
+create table TYPE_SALLE 
+(
+   TYPE_SALLE           varchar(25)                   not null,
+   LIBELLE_SALLE        integer                        null,
+   constraint PK_TYPE_SALLE primary key (TYPE_SALLE)
+);
+
