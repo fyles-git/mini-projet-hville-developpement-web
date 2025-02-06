@@ -15,12 +15,12 @@ Le projet "Hville" est un mini-projet scolaire de programmation qui permet de li
 Le centre hospitalier **Hville**, cherche à mettre en place des signalétiques intelligentes au niveau des chambres médicales des différents services ainsi que les bureaux des chefs de services.
 
 La signalétique va nous permettre de récupérer :   
-▪ La température de la chambre médicalisée,   
-▪ La quantité des chambres et des bureaux.
+- La température de la chambre médicalisée,   
+- La quantité des chambres et des bureaux.
 
 Parmi les autres besoins à prendre en compte, on trouve :   
-▪ Mise en place d’une base de données avec une meilleure sécurité,   
-▪ Améliorer l’accès aux ressources,   
+- Mise en place d’une base de données avec une meilleure sécurité,   
+- Améliorer l’accès aux ressources,   
 
 ---
 
